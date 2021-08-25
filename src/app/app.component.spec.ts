@@ -33,10 +33,10 @@ describe('AppComponent', () => {
     component.loginForm.controls['password'].setValue(userPassword);
   }
 
-  it('component initial state', () => {
-    expect(component.loginForm).toBeDefined();
-    expect(component.loginForm.invalid).toBeTruthy();
-  });
+  // it('component initial state', () => {
+  //   expect(component.loginForm).toBeDefined();
+  //   expect(component.loginForm.invalid).toBeTruthy();
+  // });
 
   // it('form value should update from when u change the input', (() => {
   //   updateForm(component.loginForm.controls.email, component.loginForm.controls.password);
